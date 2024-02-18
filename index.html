@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/SEEKFINALLOGO.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEEK</title>
+
+    <link rel="stylesheet" href=".vscode\swiper.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=".vscode\appreciationboard.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">SEEK EXPLORE ENGAGE KNOW</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#institutional-overview">Overview</a>
+            <a href="#OrgMerch">Organization Store</a>
+            <a href="#recruitment">Recruitment</a> 
+        </nav> 
+
+        <div class="search-container">
+            <input class="searchy" type="text" placeholder="Search...">
+            <i class="bx bx-search-alt"></i>
+        </div>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome to</h3>
+            <h1>SEEK</h1>
+            <p>
+                The purpose of SEEK is to facilitate engagement between students 
+                and student organizations at City College of Calamba (CCC). 
+            </p>
+            <p>SEARCH EXPLORE ENGAGE KNOW serves as a one-stop online hub where all recognized student orgs
+               can maintain an interactive profile. </p>
+
+            <div class="directory">
+                <a href="#institutional-overview" title="Institutional"><i class='bx bxs-school'></i></a>
+                <a href="#spiritual-overview" title="Spiritual"><i class='bx bxs-church'></i></a>
+                <a href="#academic-overview" title="Academic"><i class='bx bxs-graduation'></i></a>
+                <a href="#NonAcademic-overview" title="Non-Academic"><i class='bx bxs-palette'></i></a>
+            </div>
+
+            <a href="https://www.facebook.com/CCCStudentCouncil?mibextid=ZbWKwL" class="btn">Supreme Student Council</a>
+        </div>
+
+            <main id="board"></main>
+                
+            <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+            <script src='https://unpkg.com/gsap@3/dist/Draggable.min.js'></script>
+            <script src='https://assets.codepen.io/16327/InertiaPlugin.min.js'></script>
+            <script  src=".vscode\appreciationboard.js"></script>
+
+    </section>
+
+<!--Highglights-->
+      <section class="wrapper">
+        <h1 style="color: #f5CC00;">Highlights</h1>
+        <div class="slider">
+            <div class="card active">
+                <img src=".vscode/images/ARISE_HIGHLIGHT.jpg" width="200px" alt="">
+                <div class="title">
+                    <a href="https://m.facebook.com/story.php?story_fbid=pfbid0316Jia72XZfxtsZbfnb5BQ9Y9zXJbsyqegQj3EEsDsvxwsLpWK2EK6Qsz7tvSbCxol&id=100094936880907&mibextid=Nif5oz">
+                    <h2>ARISE: AN ONLINE VALORANT TOURNAMENT </h2>
+                    </a>
+                    <p>2023</p>
+                </div>
+            </div>
+            <div class="card ">
+                <img src=".vscode/images/ITS_HIGHLIGHT.jpg" width="200px" alt="">
+                <div class="title">
+                    <a href="https://m.facebook.com/story.php?story_fbid=pfbid0WEE4TsEXri7ddJ3GUAw4j7TZaNBRDNnpanw4tS2Ghujg2AvduBM6Gu1yW7vPuf1fl&id=61550673734385&mibextid=Nif5oz">
+                    <h2>ITS: FINANCIAL LITERACY WEEK</h2>
+                    </a>
+                    <p>2023</p>
+                </div>
+            </div>
+            <div class="card ">
+                <img src=".vscode/images/CSS_HIGHLIGHT.jpg" width="200px" alt="">
+                <div class="title">
+                    <a href="https://m.facebook.com/story.php?story_fbid=pfbid02dByTnfx4mZ54Yd11HdbT8bGdXF1ogna3Bs1cmsVT83jWvF1AHLuNVosaAQCTxV2Wl&id=100075488997644&mibextid=Nif5oz">
+                    <h2>CSS: SLUMBER PARTY</h2>
+                    </a>
+                    <p>2023</p>
+                </div>
+            </div>
+            <div class="card ">
+                <img src=".vscode/images/LEAD_HIGHLIGHT.jpg" width="200px" alt="">
+                <div class="title">
+                    <a href="https://m.facebook.com/story.php?story_fbid=pfbid02QcZTUHiS2jSKbj8HZvjRGA6o1Et131dfLuzhJu2PrVceU8tETbHHqmmUmeS73i3wl&id=100063766005384&mibextid=Nif5oz">
+                    <h2>LEAD: PROJECT EK</h2>
+                    </a>
+                    <p>2023</p>
+                </div>
+            </div>
+            <div class="card ">
+                <img src=".vscode/images/ASGRD_HIGHLIGHT.jpg" width="200px" alt="">
+                <div class="title">
+                    <a href="https://m.facebook.com/story.php?story_fbid=pfbid0WEE4TsEXri7ddJ3GUAw4j7TZaNBRDNnpanw4tS2Ghujg2AvduBM6Gu1yW7vPuf1fl&id=61550673734385&mibextid=Nif5oz">
+                    <h2>ASGRD: FINANCIAL LITERACY WEEK</h2>
+                    </a>
+                    <p>2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--institutional-overview (institutional organization) section design -->
+    <section class="institutional-overview" id="institutional-overview">
+        <h2 class="heading">Institutional <span>Organizations</span></h2>
+        <div class="institutional-overview-container">
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/SENTINEL OVRVW.png" alt="">
+                <div class="institutional-overview-layer">
+                    <h4>The Sentinel</h4>
+                    <p>The Sentinel is the City College of Calamba's official student publication. The organization guides young journalists of the college to express their freedom of expression.</p>
+                    <a href="https://web.facebook.com/cccthesentinel"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/SOCIO OVRVW.png" alt="">
+                <div class="institutional-overview-layer">
+                    <h4>SOCIO</h4>
+                    <p>The aim of this organization is to help students learn while doing their passion, to develop their talents, improve it and show it.</p>
+                    <a href=" https://web.facebook.com/CCCscdo2006"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/DULAAN OVRVW.png" alt="">
+                <div class="institutional-overview-layer">
+                    <h4>Dulaan Alab Gunita</h4>
+                    <p></p>
+                    <a href=" https://web.facebook.com/TalentadongArtista"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/INDAK OVRVW.png" alt="">
+                <div class="institutional-overview-layer">
+                    <h4>Indak Rizaliw</h4>
+                    <p>The CCC Socios INDAK FILIPINIANA is a school-based organization that performs various folk dances.</p>
+                    <a href="https://web.facebook.com/CCCSociosFDT"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/HIMIG OVRVW.png" alt="">
+                <div class="institutional-overview-layer">
+                    <h4>Himig Lakbayan</h4>
+                    <p>City College of Calamba - Himig Lakbayan formerly known as Glee Club</p>
+                    <a href="https://web.facebook.com/himiglakbayan"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!--institutional-overview (spiritual organization) section design -->
+        <section class="institutional-overview" id="spiritual-overview">
+            <h2 class="heading">Spiritual <span>Organizations</span></h2>
+            <div class="institutional-overview-container">
+                <div class="institutional-overview-box">
+                    <img src=".vscode/images/CBI OVRVW.png" alt="">
+                    <div class="institutional-overview-layer">
+                        <h4>Christian Brotherhood International</h4>
+                        <p>Christian Brotherhood International</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="institutional-overview-box">
+                    <img src=".vscode/images/EVERY NATION OVRVW.png" alt="">
+                    <div class="institutional-overview-layer">
+                        <h4>Every Nation Campus</h4>
+                        <p>A global community of students who believe that changing the world starts when we change the campus.</p>
+                        <a href="https://web.facebook.com/encampuscalamba?_rdc=1&_rdr"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="institutional-overview-box">
+                    <img src=".vscode/images/SHINE FOR OVRVW.png" alt="">
+                    <div class="institutional-overview-layer">
+                        <h4>Shine for Jesus</h4>
+                        <p>Interdenominational, student, Christian organization seeking to provide a positive spiritual resource for students.</p>
+                        <a href="https://web.facebook.com/profile.php?id=100086313643984"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="institutional-overview-box">
+                    <img src=".vscode/images/SOUL OVRVW.png" alt="">
+                    <div class="institutional-overview-layer">
+                        <h4>Soul-Link CCC- Chapter</h4>
+                        <p>Soul Link CCC- Chapter</p>
+                        <a href="https://web.facebook.com//Soul-Link-CCC-Chapter"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!--institutional-overview (academic organization) section design -->
+    <section class="institutional-overview" id="academic-overview">
+        <h2 class="heading">Academic <span>Organizations</span></h2>
+        <div class="institutional-overview-container">
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/ALLS OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>ALLS</h4>
+                    <p>Alliance of Language and Literature Students</p>
+                    <a href="https://web.facebook.com/allsccc"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/CSS OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>CSS</h4>
+                    <p>Computer Science Society</p>
+                    <a href="https://web.facebook.com/ccc.computersciencesociety"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/FELTA OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>FELTA</h4>
+                    <p>Future Elementary Teachers Association</p>
+                    <a href="https://web.facebook.com/FutureElementaryTeachersAssociation"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/ITS OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>ITS</h4>
+                    <p>Information Technology Society</p>
+                    <a href="https://web.facebook.com/cccitsociety"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/JPIA OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>JPIA</h4>
+                    <p>Junior Philippine Institute of Accountants</p>
+                    <a href="https://web.facebook.com/JPIACCC"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/LEAD OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>LEAD</h4>
+                    <p>Leader Educators Advocating Dynamism</p>
+                    <a href="https://web.facebook.com/DASTE.Lead"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/MAIOR OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>Major Sceintam Sodalitas</h4>
+                    <p>Major Scientam Sodalitas</p>
+                    <a href="https://web.facebook.com/CCCMaiorScientiamSodalitas"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/PSYCHE OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>PSYCHE</h4>
+                    <p>Psychology Club on Humanistic Education</p>
+                    <a href="https://web.facebook.com/CCC.PsyCHE"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/MATH OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>MATH</h4>
+                    <p>Ugnayan ng mga Math Majors para sa Makabuluhang Pagtuturo</p>
+                    <a href="https://web.facebook.com/UM3PCCC"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--institutional-overview (non-academic organizations) section design -->
+    <section class="institutional-overview" id="NonAcademic-overview">
+        <h2 class="heading">Non-Academic <span>Organizations</span></h2>
+        <div class="institutional-overview-container">
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/ARISE OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>Arise Esports</h4>
+                    <p>The official gaming community of the City College of Calamba.</p>
+                    <a href="https://web.facebook.com/CCCAriseEsports"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/ASGRD OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>ASGRD</h4>
+                    <p>Alliance of Students with Great Responsibilities for Development</p>
+                    <a href="https://web.facebook.com/ASGRDCCC"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/KABATAAN OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>Bayaning Kabataan ni Rizal - CCC Chapter</h4>
+                    <p>A school-based organization that aims to mold youth as a leader.</p>
+                    <a href="https://web.facebook.com/bknrccc"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/DIBUJO OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>CCC Dibujo Creatives</h4>
+                    <p>A non-academic organization at CCC that creates a safe space for self-discovery through art.</p>
+                    <a href="https://web.facebook.com/profile.php?id=61551043719738"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/EXCEL OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>CCC EXCEL</h4>
+                    <p>Executive Computer Education Leaders</p>
+                    <a href="https://web.facebook.com/CCCExcel"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/PEER OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>CCC Peer Support Group</h4>
+                    <p></p>
+                    <a href=" https://web.facebook.com/profile.php?id=100091494213321"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/VALIANT OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>CCC Valiants Pep Squad</h4>
+                    <p></p>
+                    <a href="https://web.facebook.com/CCCValiantsPepSquad"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/CAITO OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>CAITO</h4>
+                    <p>Creative Anime-Inspired Theme Organization</p>
+                    <a href="https://web.facebook.com/CAITO2006"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/DULAAN ALAB OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>DC Production</h4>
+                    <p>Dalubhasaan ng Calamba Production</p>
+                    <a href="https://web.facebook.com/DalubhasaanngCalambaProduction"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/IFIGHT OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>iFIGHT CCC Chapter</h4>
+                    <p>A recognized organization at CCC fighting against human trafficking and modern slavery.</p>
+                    <a href=" https://web.facebook.com/iFIGHTCCC"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/MARTIAL OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>MAFS</h4>
+                    <p>Martial Arts Fighting System CCC Chapter.</p>
+                    <a href=" https://web.facebook.com/profile.php?id=61550673734385"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/ROTARACT OVRVW.png" alt="">
+
+                <div class="institutional-overview-layer">
+                    <h4>Rotaract Club of City College of Calamba</h4>
+                    <p>Rotaract Club is focused on leadership and community service inside and outside of the CCC.</p>
+                    <a href="https://web.facebook.com/rotaractclub.citycollegeofcalamba"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="institutional-overview-box">
+                <img src=".vscode/images/SAVE OVRVIEW.png" alt="">
+                <div class="institutional-overview-layer">
+                    <h4>SAVE</h4>
+                    <p>Society of Active Volunteers and Environmentalists</p>
+                    <a href="https://web.facebook.com/CCCSAVE"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- OrgMerch section design -->
+    <section class="OrgMerch" id="OrgMerch">
+        <div class="OrgMerch-img">
+            <img src=".vscode/images/SEEKFINALLOGO.png" alt="">
+        </div>
+        <div class="OrgMerch-content">
+            <h2 class="heading">Organization<span> Store</span></h2>
+            <h3>
+                Hi there, we are delighted to present you with the latest merchandise from 
+                CCC organizations! 
+            </h3>
+            <p>
+                Show your support and make a difference by purchasing these fantastic items.
+                With just one click, you can explore the wide range of merch available.
+            </p>
+            <p>
+                From stylish apparel to trendy accessories, our currated collection showcases the essence
+                of these organizations. Get ready to discover an array of unique and visually stunning products
+                that perfectly capture the spirit of these organizations.
+            </p>
+            <a href=".vscode\orgstore.html" class="btn">Shop Here</a>
+        </div>
+    </section>
+
+    <!-- studentleaders design -->
+    <div class="studentleaders-container">
+        <h2 class="heading">Student <span>Leaders</span></h2>
+
+        <div class="studentleaders-wrapper">
+            <div class="studentleaders-box mySwiper">
+                <div class="studentleaders-content swiper-wrapper">
+                    <div class="studentleaders-slide swiper-slide" style="background: url('.vscode/images/zz.png') center no-repeat; background-size: cover; ">
+                        <img src=".vscode/images/Sednyl Andrei Eugenio - Junior Philippine institut.jpg" alt="">
+                        <h3 style="color: #f5CC00;">Sednyl Andrei Eugenio</h3>
+                        <p style="color: #f5CC00;">President of Junior Philippine Institute of Accountants</p>
+                    </div>
+
+                    <div class="studentleaders-slide swiper-slide" style="background: url('.vscode/images/zzz.png') center no-repeat; background-size: cover; ">
+                        <img src=".vscode/images/Kristine Lorenzo - Future Elem Teachers Associatio.jpg" alt="">
+                        <h3 style="color: #f5CC00;">Kristine Lorenzo</h3>
+                        <p style="color: #f5CC00;">President of Future Elementary Teachers Association</p>
+                    </div>
+
+                    <div class="studentleaders-slide swiper-slide" style="background: url('.vscode/images/zzzz.png') center no-repeat; background-size: cover; ">
+                        <img src=".vscode/images/Reiven Nicole Tibayan - Css Society.jpg" alt="">
+                        <h3 style="color: #f5CC00;">Reiven Nicole Tibayan</h3>
+                        <p style="color: #f5CC00;">President of Computer Science Society</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- recruitment section design -->
+    <section class="recruitment" id="recruitment">
+        <h2 class="heading">The <span>Organizations</span></h2>
+
+        <div class="recruitment-container">
+            <div class="recruitment-box">
+                <i class='bx bxs-school'></i>
+                <h3>Institutional</h3>
+                <p>Be a part of the Institutional Organization and participate in decision-making processes. Shape the future of our campus.</p>
+                <a href=".vscode\institutionalform.html" class="btn">Join Here</a>
+            </div>
+            <div class="recruitment-box">
+                <i class='bx bxs-church'></i>
+                <h3>Spiritual</h3>
+                <p>Spiritual organizations are concerned with helping people develop and reach their full potential. Find fellowship, explore your faith, and make a difference. Join our organization.</p>
+                <a href=".vscode\spiritualForm.html" class="btn">Join Here</a>
+            </div>
+            <div class="recruitment-box">
+                <i class='bx bxs-graduation'></i>
+                <h3>Academic</h3>
+                <p>Advance your knowledge, build your resume, and network with peers in your field. Join the Academic Organization</p>
+                <a href=".vscode\academicForm.html" class="btn">Join Here</a>
+            </div>
+            <div class="recruitment-box">
+                <i class='bx bxs-palette'></i>
+                <h3>Non-Academic</h3>
+                <p>Extracurricular activities not only help students discover their skills and shortcomings, but they also help them find something they like doing outside of school. Become a member of  Non Academic Organization!</p>
+                <a href=".vscode\non-academicForm.html" class="btn">Join Here</a>
+            </div>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var recruitmentLinks = document.querySelectorAll('.recruitment-box .btn');
+                
+                recruitmentLinks.forEach(function(link) {
+                    link.addEventListener('click', function(event) {
+                        var confirmation = confirm("Are you sure you want to leave this page?");
+                        if (!confirmation) {
+                            event.preventDefault(); // Prevent the default link behavior if the user cancels
+                        }
+                    });
+                });
+            });
+        </script>
+        
+    </section>
+
+    <!--institutional-overview (institutional organization) section design -->
+    
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+<!-- js file -->                                                                                                                            
+<script src="https://unpkg.com/scrollreveal"></script>                                                                                                                                                                 
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src= "script.js"></script>
+</body>
+
+</html>
